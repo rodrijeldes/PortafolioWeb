@@ -129,21 +129,23 @@
     <section id="inicio" class="min-h-screen flex items-center relative overflow-hidden pt-16">
         <div class="absolute inset-0 custom-gradient opacity-20"></div>
         <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIi8+PC9zdmc+')] opacity-20"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-            <div class="text-center">
-                <h1 class="text-5xl md:text-7xl font-bold mb-6 animate__animated animate__fadeInDown">
-                    <span class="text-gradient">Desarrollador</span>
-                    <span class="block mt-2">Full Stack</span>
-                </h1>
-                <p class="text-xl md:text-2xl text-blue-300 mb-12 animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center space-y-6">
+                <div class="animate__animated animate__fadeInDown">
+                    <h1 class="text-4xl md:text-6xl font-bold inline-flex flex-col md:flex-row items-center justify-center gap-3">
+                        <span class="text-gradient">Desarrollador</span>
+                        <span class="text-white">Full Stack</span>
+                    </h1>
+                </div>
+                <p class="text-lg md:text-xl text-blue-300 max-w-2xl mx-auto animate__animated animate__fadeInUp animate__delay-1s leading-relaxed">
                     Transformando ideas en experiencias digitales extraordinarias
                 </p>
-                <div class="flex justify-center space-x-4 animate__animated animate__fadeIn animate__delay-2s">
-                    <a href="#proyectos" class="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all transform hover:scale-105">
-                        <i class="fas fa-code mr-2"></i>Ver Proyectos
+                <div class="flex flex-col sm:flex-row justify-center gap-4 sm:space-x-4 animate__animated animate__fadeIn animate__delay-2s">
+                    <a href="#proyectos" class="group px-6 py-2.5 bg-blue-600 text-white text-base rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 flex items-center justify-center">
+                        <i class="fas fa-code mr-2 group-hover:rotate-12 transition-transform"></i>Ver Proyectos
                     </a>
-                    <a href="#contacto" class="px-8 py-3 border-2 border-blue-500 text-blue-400 rounded-full hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105">
-                        <i class="fas fa-paper-plane mr-2"></i>Contactar
+                    <a href="#contacto" class="group px-6 py-2.5 border-2 border-blue-500 text-base text-blue-400 rounded-full hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105 flex items-center justify-center">
+                        <i class="fas fa-paper-plane mr-2 group-hover:translate-x-1 transition-transform"></i>Contactar
                     </a>
                 </div>
             </div>
