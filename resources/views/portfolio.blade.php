@@ -135,79 +135,168 @@
                 <span class="text-gradient">Mis Proyectos</span>
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Proyecto 1 -->
-                <div class="glass rounded-xl overflow-hidden card-hover">
+                <!-- SmartCare - Sistema de Gestión Médica -->
+                <div class="glass rounded-xl overflow-hidden card-hover transform transition-all duration-300 hover:-translate-y-2">
                     <div class="relative group">
-                        <img src="https://via.placeholder.com/600x400" alt="Proyecto 1" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute top-4 right-4 z-10">
+                            <span class="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Activo</span>
+                        </div>
+                        <img src="https://via.placeholder.com/600x400/0066cc/ffffff?text=SmartCare" alt="SmartCare" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-lg font-bold text-white">Tecnologías</h4>
-                                <div class="flex space-x-2 mt-2">
+                                <h4 class="text-lg font-bold text-white">Tecnologías Principales</h4>
+                                <div class="flex flex-wrap gap-2 mt-2">
                                     <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">React</span>
                                     <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Node.js</span>
                                     <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">MongoDB</span>
+                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">WebSockets</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-blue-400 mb-2">Proyecto 1</h3>
-                        <p class="text-gray-300 mb-4">Una aplicación web moderna con características innovadoras.</p>
-                        <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
-                            Ver Detalles
-                            <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
-                        </a>
+                        <h3 class="text-xl font-bold text-blue-400 mb-2">SmartCare</h3>
+                        <p class="text-gray-300 mb-4">Sistema integral de gestión médica con características avanzadas de telemedicina, gestión de citas y expedientes electrónicos en tiempo real.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="{{ route('proyecto.smartcare') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                Ver Proyecto Completo
+                                <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                            </a>
+                            <a href="https://github.com/usuario/smartcare" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Proyecto 2 -->
-                <div class="glass rounded-xl overflow-hidden card-hover">
+                <!-- EcoTrack - Plataforma de Sostenibilidad -->
+                <div class="glass rounded-xl overflow-hidden card-hover transform transition-all duration-300 hover:-translate-y-2">
                     <div class="relative group">
-                        <img src="https://via.placeholder.com/600x400" alt="Proyecto 2" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute top-4 right-4 z-10">
+                            <span class="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Activo</span>
+                        </div>
+                        <img src="https://via.placeholder.com/600x400/00cc66/ffffff?text=EcoTrack" alt="EcoTrack" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-lg font-bold text-white">Tecnologías</h4>
-                                <div class="flex space-x-2 mt-2">
+                                <h4 class="text-lg font-bold text-white">Tecnologías Principales</h4>
+                                <div class="flex flex-wrap gap-2 mt-2">
                                     <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Vue.js</span>
                                     <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Laravel</span>
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">MySQL</span>
+                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">PostgreSQL</span>
+                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">GraphQL</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-blue-400 mb-2">Proyecto 2</h3>
-                        <p class="text-gray-300 mb-4">Sistema de gestión empresarial con interfaz intuitiva.</p>
-                        <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
-                            Ver Detalles
-                            <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
-                        </a>
+                        <h3 class="text-xl font-bold text-blue-400 mb-2">EcoTrack</h3>
+                        <p class="text-gray-300 mb-4">Plataforma innovadora para el seguimiento y gestión de iniciativas de sostenibilidad empresarial, con análisis de datos y reportes en tiempo real.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="{{ route('proyecto.ecotrack') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                Ver Proyecto Completo
+                                <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                            </a>
+                            <a href="https://github.com/usuario/ecotrack" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Proyecto 3 -->
-                <div class="glass rounded-xl overflow-hidden card-hover">
+                <!-- FinTech Pro - Sistema Financiero -->
+                <div class="glass rounded-xl overflow-hidden card-hover transform transition-all duration-300 hover:-translate-y-2">
                     <div class="relative group">
-                        <img src="https://via.placeholder.com/600x400" alt="Proyecto 3" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute top-4 right-4 z-10">
+                            <span class="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Activo</span>
+                        </div>
+                        <img src="https://via.placeholder.com/600x400/cc6600/ffffff?text=FinTech+Pro" alt="FinTech Pro" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
-                                <h4 class="text-lg font-bold text-white">Tecnologías</h4>
-                                <div class="flex space-x-2 mt-2">
+                                <h4 class="text-lg font-bold text-white">Tecnologías Principales</h4>
+                                <div class="flex flex-wrap gap-2 mt-2">
                                     <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Next.js</span>
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Tailwind</span>
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Firebase</span>
+                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">TypeScript</span>
+                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Prisma</span>
+                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">AWS</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-blue-400 mb-2">Proyecto 3</h3>
-                        <p class="text-gray-300 mb-4">Plataforma de comercio electrónico moderna y escalable.</p>
-                        <a href="#" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
-                            Ver Detalles
-                            <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
-                        </a>
+                        <h3 class="text-xl font-bold text-blue-400 mb-2">FinTech Pro</h3>
+                        <p class="text-gray-300 mb-4">Plataforma financiera avanzada con análisis predictivo, gestión de inversiones y dashboard personalizado para seguimiento de portafolios.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="{{ route('proyecto.fintech') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                Ver Proyecto Completo
+                                <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                            </a>
+                            <a href="https://github.com/usuario/fintech-pro" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+                <!-- MusicEvents - Eventos Musicales -->
+                <div class="glass rounded-xl overflow-hidden card-hover transform transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative group">
+                        <div class="absolute top-4 right-4 z-10">
+                            <span class="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Activo</span>
+                        </div>
+                        <img src="https://via.placeholder.com/600x400/8B5CF6/ffffff?text=MusicEvents" alt="MusicEvents" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <h4 class="text-lg font-bold text-white">Tecnologías Principales</h4>
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">Laravel</span>
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">TailwindCSS</span>
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">Alpine.js</span>
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-purple-400 mb-2">MusicEvents</h3>
+                        <p class="text-gray-300 mb-4">Plataforma profesional para la gestión y producción de eventos musicales, con sistema de reservas, gestión de artistas y locaciones.</p>
+                        <div class="flex justify-between items-center">
+                            <a href="{{ route('proyecto.musicevents') }}" class="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                                Ver Proyecto Completo
+                                <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
+                            </a>
+                            <a href="https://github.com/usuario/musicevents" target="_blank" class="text-gray-400 hover:text-purple-400 transition-colors">
+                                <i class="fab fa-github text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Estadísticas -->
+            <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center p-6 glass rounded-xl">
+                    <div class="text-3xl font-bold text-blue-400 mb-2">
+                        <span class="counter" data-target="50">0</span>+
+                    </div>
+                    <p class="text-gray-300">Proyectos Completados</p>
+                </div>
+                <div class="text-center p-6 glass rounded-xl">
+                    <div class="text-3xl font-bold text-blue-400 mb-2">
+                        <span class="counter" data-target="30">0</span>k
+                    </div>
+                    <p class="text-gray-300">Líneas de Código</p>
+                </div>
+                <div class="text-center p-6 glass rounded-xl">
+                    <div class="text-3xl font-bold text-blue-400 mb-2">
+                        <span class="counter" data-target="100">0</span>%
+                    </div>
+                    <p class="text-gray-300">Clientes Satisfechos</p>
+                </div>
+                <div class="text-center p-6 glass rounded-xl">
+                    <div class="text-3xl font-bold text-blue-400 mb-2">
+                        <span class="counter" data-target="5">0</span>
+                    </div>
+                    <p class="text-gray-300">Años de Experiencia</p>
                 </div>
             </div>
         </div>
@@ -277,6 +366,61 @@
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         }
+
+        // Animación de contadores
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+
+        const animateCounter = (counter) => {
+            const target = +counter.getAttribute('data-target');
+            let count = 0;
+            const inc = target / speed;
+
+            const updateCount = () => {
+                if (count < target) {
+                    count += inc;
+                    counter.innerText = Math.ceil(count);
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            updateCount();
+        };
+
+        // Observador de intersección para activar las animaciones
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    animateCounter(counter);
+                    observer.unobserve(counter);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        // Observar los contadores
+        counters.forEach(counter => observer.observe(counter));
+
+        // Animación suave del scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Cerrar menú móvil si está abierto
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        toggleMenu();
+                    }
+                }
+            });
+        });
     </script>
 </body>
 </html>
