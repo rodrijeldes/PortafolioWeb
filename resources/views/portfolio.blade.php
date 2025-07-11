@@ -7,76 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <style>
-        :root {
-            --primary: #3B82F6;
-            --secondary: #1E40AF;
-            --accent: #60A5FA;
-            --dark: #1E293B;
-        }
-
-        .custom-gradient {
-            background: linear-gradient(135deg, var(--secondary), var(--primary));
-        }
-
-        .text-gradient {
-            background: linear-gradient(to right, var(--accent), var(--primary));
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .glass {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .floating {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
-        }
-
-        .card-hover {
-            transition: all 0.5s ease;
-        }
-
-        .card-hover:hover {
-            transform: translateY(-10px);
-        }
-
-        .nav-link {
-            position: relative;
-            padding-bottom: 5px;
-        }
-
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: 0;
-            left: 0;
-            background: var(--accent);
-            transition: width 0.3s ease;
-        }
-
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        .gradient-border {
-            position: relative;
-            background: linear-gradient(var(--dark), var(--dark)) padding-box,
-                        linear-gradient(to right, var(--accent), var(--primary)) border-box;
-            border: 2px solid transparent;
-            border-radius: 0.75rem;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
 
 <body class="bg-gray-900 text-gray-100">
@@ -85,7 +16,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="text-2xl font-bold text-gradient">
-                    <i class="fas fa-terminal mr-2"></i>DevPortfolio
+                    <i class="fas fa-terminal mr-2"></i>DevPortafolio
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#inicio" class="nav-link text-gray-300 hover:text-blue-400">
