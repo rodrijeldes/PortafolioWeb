@@ -169,34 +169,34 @@
                     </div>
                 </div>
 
-                <!-- EcoTrack - Plataforma de Sostenibilidad -->
+                <!-- MusicEvents - Eventos Musicales -->
                 <div class="glass rounded-xl overflow-hidden card-hover transform transition-all duration-300 hover:-translate-y-2">
                     <div class="relative group">
                         <div class="absolute top-4 right-4 z-10">
                             <span class="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Activo</span>
                         </div>
-                        <img src="https://via.placeholder.com/600x400/00cc66/ffffff?text=EcoTrack" alt="EcoTrack" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                        <img src="https://via.placeholder.com/600x400/00cc66/ffffff?text=EcoTrack" alt="MusicEvents" class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300">
                             <div class="absolute bottom-4 left-4 right-4">
                                 <h4 class="text-lg font-bold text-white">Tecnologías Principales</h4>
                                 <div class="flex flex-wrap gap-2 mt-2">
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Vue.js</span>
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">Laravel</span>
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">PostgreSQL</span>
-                                    <span class="px-2 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">GraphQL</span>
+                                       <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">Laravel</span>
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">TailwindCSS</span>
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">Alpine.js</span>
+                                    <span class="px-2 py-1 bg-purple-500/20 rounded-full text-sm text-purple-300">MySQL</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-blue-400 mb-2">EcoTrack</h3>
-                        <p class="text-gray-300 mb-4">Plataforma innovadora para el seguimiento y gestión de iniciativas de sostenibilidad empresarial, con análisis de datos y reportes en tiempo real.</p>
+                        <h3 class="text-xl font-bold text-blue-400 mb-2">Musicevents</h3>
+                        <p class="text-gray-300 mb-4">Plataforma profesional para la gestión y producción de eventos musicales, con sistema de reservas, gestión de artistas y locaciones.</p>
                         <div class="flex justify-between items-center">
-                            <a href="{{ route('proyecto.ecotrack') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                            <a href="{{ route('proyecto.musicevents') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                 Ver Proyecto Completo
                                 <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
                             </a>
-                            <a href="https://github.com/usuario/ecotrack" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <a href="https://github.com/usuario/musicevents" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
                                 <i class="fab fa-github text-xl"></i>
                             </a>
                         </div>
@@ -238,7 +238,7 @@
                 </div>
             </div>
 
-                <!-- MusicEvents - Eventos Musicales -->
+                <!-- MusicEvents - Eventos Musicales
                 <div class="glass rounded-xl overflow-hidden card-hover transform transition-all duration-300 hover:-translate-y-2">
                     <div class="relative group">
                         <div class="absolute top-4 right-4 z-10">
@@ -271,7 +271,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Estadísticas -->
             <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div class="text-center p-6 glass rounded-xl">
