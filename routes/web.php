@@ -19,6 +19,10 @@ Route::prefix('proyectos')->group(function () {
         return view('proyectos.fintech');
     })->name('proyecto.fintech');
 
+    Route::get('/produccionesdokkaebi', function () {
+        return view('proyectos.ProduccionesDokkaebi');
+    })->name('proyecto.produccionesdokkaebi');
+
     Route::get('/musicevents', function () {
         return view('proyectos.musicevents');
     })->name('proyecto.musicevents');

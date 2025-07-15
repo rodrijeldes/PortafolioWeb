@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MusicEvents - Producción de Eventos Musicales</title>
+    <title>Producciones Dokkaebi</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
@@ -118,7 +118,7 @@
         </div>
         <div class="relative z-10 text-center px-4">
             <h1 class="text-5xl md:text-7xl font-bold mb-6 text-gradient-music animate-pulse">
-                MusicEvents
+                Producciones Dokkaebi
             </h1>
             <p class="text-xl md:text-2xl text-gray-300 mb-8">
                 Creamos experiencias musicales inolvidables

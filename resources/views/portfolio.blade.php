@@ -189,10 +189,10 @@
                         </div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-blue-400 mb-2">Musicevents</h3>
+                        <h3 class="text-xl font-bold text-blue-400 mb-2">Producciones Dokkaebi</h3>
                         <p class="text-gray-300 mb-4">Plataforma profesional para la gestión y producción de eventos musicales, con sistema de reservas, gestión de artistas y locaciones.</p>
                         <div class="flex justify-between items-center">
-                            <a href="{{ route('proyecto.musicevents') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                            <a href="{{ route('proyecto.produccionesdokkaebi') }}" class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                 Ver Proyecto Completo
                                 <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition-transform"></i>
                             </a>
